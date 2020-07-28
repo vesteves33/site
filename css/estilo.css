@@ -68,6 +68,7 @@ ul li a:hover {
 /* Rodapé */
 
 footer{
+  margin-top: 10px;
   background: black;
   color: white;
 }
