@@ -20,7 +20,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: black;
+  color: white;
   border-bottom: 0.3px solid darkviolet;
 }
 
