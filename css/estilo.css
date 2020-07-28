@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Cabeçalho */ 
+header {
+  background: #1d2333;
+  position: relative;
+}
+
+button i,
+ul li a {
+  color: blueviolet;
+}
+
+ul li a:hover {
+  color: black;
+  border-bottom: 0.3px solid darkviolet;
+}
+
+
+@media (max-width: 767.98px) {
+  ul li a:hover {
+    border: none;
+  }
+}
+
+
+/* Seção About */
+#about {
+  background: whitesmoke;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.conteudo {
+  color: black;
+  margin: 15px 0;
+  padding: 15px 30px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
+/* Contact */
+#contact {
+  background: whitesmoke;
+  border-top: silver;
+}
+
+#rede-social #github {
+ color: black;
+}
+
+@media (min-width: 767.99px) {
+  #rede-social{
+    display: none;
+  }
+}
+
+/* Rodapé */
+
+footer{
+  background: black;
+  color: white;
+}
+
+#github {
+  color: white;
+}
+
+#twitter {
+  color: #2962ff;
+}
+
+#linkedin {
+  color: #0E76a8;
+}
+
+/* Tipografia */
+
+h2, p {
+  font-family: 'Arvo','serif';
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: -0.09px;
+   
+}
+
+p {
+  font-size: 17px;
+}
